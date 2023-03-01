@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th,
+    td {
+        padding: 10px;
+        border: 1px solid black;
+    }
+    th {
+        background-color: #d7ef00;
+    }
+    tbody tr:hover {
+        background-color: white;
+    }
+
+    tr {
+        background-color: lightgreen;
+    }
+    tr.cancelled {
+        background-color: rgb(246, 64, 64);
+    }
+
+    tr.delayed {
+        background-color: rgb(159, 159, 159);
+    }
+}
